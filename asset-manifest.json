@@ -1,7 +1,13 @@
 {
-  "main.css": "static/css/main.9a0fe4f1.css",
-  "main.css.map": "static/css/main.9a0fe4f1.css.map",
-  "main.js": "static/js/main.0ea94a0a.js",
-  "main.js.map": "static/js/main.0ea94a0a.js.map",
-  "static/media/logo.svg": "static/media/logo.5d5d9eef.svg"
+  "main.css": "static/css/main.b60fb119.css",
+  "main.css.map": "static/css/main.b60fb119.css.map",
+  "main.js": "static/js/main.b8579615.js",
+  "main.js.map": "static/js/main.b8579615.js.map",
+  "static/media/1.png": "static/media/1.62436b97.png",
+  "static/media/2.png": "static/media/2.d0eba89f.png",
+  "static/media/3.png": "static/media/3.91878b4d.png",
+  "static/media/appstore.svg": "static/media/appstore.d0558d91.svg",
+  "static/media/googleplay.png": "static/media/googleplay.db9b21a1.png",
+  "static/media/play_store_feature.png": "static/media/play_store_feature.d54db245.png",
+  "static/media/vcrosdmono.ttf": "static/media/vcrosdmono.5fcd6c65.ttf"
 }
