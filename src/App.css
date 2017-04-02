@@ -1,24 +1,87 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'vcrosdmono';
+  src: url('vcrosdmono.ttf');
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.App {
+
+}
+
+.App-banner {
+  position: fixed;
+  width: 100%;
+  top:0;
+  padding: 20px;
+  background-color: #fff;
+  border-bottom: 1px solid black;
+}
+
+.App-cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.App-screenshot-wrapper {
+  text-align: center;
+
+}
+
+.App-screenshot {
+  width: 50%;
+  max-width: 400px;
+  border: 1px solid black;
+  /*height: 50%;*/
+
 }
 
 .App-header {
-  background-color: #222;
+  background-color: #fff;
   height: 150px;
-  padding: 20px;
   color: white;
+  display: flex;
+  justify-content: center;
 }
+@media (min-width: 750px) {
+  .App-header {
+    background-color: #fff;
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.App-feature {
+  height: 100%;
+}
+
 
 .App-intro {
-  font-size: large;
+  font-family: 'vcrosdmono';
+  padding: 20px;
+  padding-top: 0px;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
+.App-footer {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-badge {
+  width: 135px;
+  padding: 10px
+  /*height: 60px;*/
+}
+
+.App-social  {
+  display: flex;
+  justify-content: center;
+}
+
+/*@keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
-}
+}*/
